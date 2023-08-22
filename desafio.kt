@@ -72,10 +72,11 @@ fun main() {
 
         this.matricularTodos(u2,u3,u4)
         println("\nquantidade de inscritos formação back end: " + this.getNumInscritos())
-
+        // esperado: 6
         println("removendo inscritos...")
         this.removerTodos(u2,u3,u4)
         println("quantidade de inscritos formação back end: " + this.getNumInscritos())
+        // esperado: 3
     }
 
 }
